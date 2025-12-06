@@ -27,7 +27,7 @@ Hệ điều hành: Windows (Khuyến nghị), macOS, Linux.
 
 ### 2️⃣ Cài thư viện cần thiết
 ```bash
-pip install dateparser unidecode
+pip install dateparser underthesea unidecode
 ```
 
 ---
