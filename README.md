@@ -23,14 +23,12 @@ python main.py
 personal-schedule-assistant/
 │
 
-├── main.py           # Chương trình chính (GUI & Controller)
+├── main.py           
 
-├── nlp_engine.py     # Module xử lý ngôn ngữ tự nhiên (Core Logic)
+├── nlp_engine.py     
 
-├── database.py       # Module quản lý SQLite
+├── database.py      
 
-├── requirements.txt  # Danh sách thư viện
+├── schedule.db       
 
-├── schedule.db       # File dữ liệu (Tự sinh ra khi chạy)
-
-└── README.md         # Tài liệu hướng dẫn này
+└── README.md         
