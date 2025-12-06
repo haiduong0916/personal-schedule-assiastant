@@ -1,34 +1,41 @@
-🛠 Cài đặt & Chạy ứng dụng
+# Ứng dụng quản lý lịch trình cá nhân
 
-1. Yêu cầu hệ thống
+## 🧠 Giới thiệu
+Ứng dụng giúp **quản lý lịch trình** bằng kiến trúc module  **NLP**.  
+Dự án được xây dựng trong khuôn khổ **đồ án môn học** với yêu cầu đạt tối thiểu 80% độ chính xác.
 
-Python 3.x trở lên.
+---
 
-Hệ điều hành: Windows (Khuyến nghị), macOS, Linux.
-
-2. Cài đặt thư viện
-
-Mở terminal tại thư mục dự án và chạy lệnh sau để cài đặt các thư viện cần thiết:
-
-pip install dateparser unidecode
-
-(Lưu ý: Các thư viện tkinter, sqlite3, calendar thường đã có sẵn trong bộ cài Python chuẩn).
-
-3. Khởi chạy ứng dụng
-
-python main.py
-
-📂 Cấu trúc thư mục
-
+## 🧩 Cấu trúc dự án
+```bash
 personal-schedule-assistant/
 │
+├── main.py                 
+├── database.py            
+├── nlp_engine.py      
+└── README.md              
+```
 
-├── main.py           
+---
 
-├── nlp_engine.py     
+## ⚙️ Cài đặt môi trường
+### 1️⃣ Yêu cầu hệ thống
+```bash
+Python 3.x trở lên.
+Hệ điều hành: Windows (Khuyến nghị), macOS, Linux.
+```
 
-├── database.py      
+### 2️⃣ Cài thư viện cần thiết
+```bash
+pip install dateparser unidecode
+```
 
-├── schedule.db       
+---
 
-└── README.md         
+## 🚀 Chạy ứng dụng chính
+```bash
+python main.py
+```
+
+
+
